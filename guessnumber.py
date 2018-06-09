@@ -11,6 +11,7 @@ guess = int(input("What number am I thinking of? "))
 
 counter = 1
 while guess != number:
+    print("You have guessed " + str(counter) + " times.  Keep trying!")
     guess = int(input("What number am I thinking of? "))
     counter += 1
     if counter == 10:
